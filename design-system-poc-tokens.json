@@ -32,24 +32,6 @@
             "$value": "3rem"
           }
         },
-        "line-height": {
-          "xs": {
-            "$type": "lineHeights",
-            "$value": "100%"
-          },
-          "sm": {
-            "$type": "lineHeights",
-            "$value": "125%"
-          },
-          "md": {
-            "$type": "lineHeights",
-            "$value": "150%"
-          },
-          "lg": {
-            "$type": "lineHeights",
-            "$value": "200%"
-          }
-        },
         "font-weight": {
           "normal": {
             "$type": "fontWeights",
@@ -58,20 +40,6 @@
           "bold": {
             "$type": "fontWeights",
             "$value": "Bold"
-          }
-        },
-        "font-family": {
-          "primary": {
-            "$type": "fontFamilies",
-            "$value": "Source Serif Pro, Tahoma, Verdana, sans-serif"
-          },
-          "secondary": {
-            "$type": "fontFamilies",
-            "$value": "Fira Sans, Tahoma, Verdana, sans-serif"
-          },
-          "code": {
-            "$type": "fontFamilies",
-            "$value": "Fira Code, Monaco, monospace"
           }
         }
       },
@@ -911,6 +879,42 @@
           }
         }
       }
+    },
+    "hetcak": {
+      "typography": {
+        "line-height": {
+          "xs": {
+            "$type": "lineHeights",
+            "$value": "100%"
+          },
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "125%"
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "150%"
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "200%"
+          }
+        },
+        "font-family": {
+          "primary": {
+            "$type": "fontFamilies",
+            "$value": "Source Serif Pro, Tahoma, Verdana, sans-serif"
+          },
+          "secondary": {
+            "$type": "fontFamilies",
+            "$value": "Fira Sans, Tahoma, Verdana, sans-serif"
+          },
+          "code": {
+            "$type": "fontFamilies",
+            "$value": "Fira Code, Monaco, monospace"
+          }
+        }
+      }
     }
   },
   "common": {
@@ -926,7 +930,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.secondary}"
+          "$value": "{hetcak.typography.font-family.secondary}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -938,13 +942,13 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{hetcak.typography.line-height.md}"
         }
       },
       "heading": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.primary}"
+          "$value": "{hetcak.typography.font-family.primary}"
         },
         "font-weight": {
           "$type": "fontWeights",
@@ -1052,7 +1056,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.secondary}"
+          "$value": "{hetcak.typography.font-family.secondary}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -1060,7 +1064,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{hetcak.typography.line-height.md}"
         },
         "max-inline-size": {
           "$type": "dimension",
@@ -1352,7 +1356,7 @@
       "code": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.code}"
+          "$value": "{hetcak.typography.font-family.code}"
         }
       }
     }
@@ -1889,7 +1893,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{hetcak.typography.line-height.sm}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -2687,7 +2691,7 @@
         "heading": {
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{hetcak.typography.line-height.sm}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4339,7 +4343,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{hetcak.typography.line-height.sm}"
           }
         },
         "level-2": {
@@ -4361,7 +4365,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{hetcak.typography.line-height.sm}"
           }
         },
         "level-3": {
@@ -4383,7 +4387,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{hetcak.typography.line-height.sm}"
           }
         },
         "level-4": {
@@ -4405,7 +4409,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.md}"
+            "$value": "{hetcak.typography.line-height.md}"
           }
         },
         "level-5": {
@@ -4427,7 +4431,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.md}"
+            "$value": "{hetcak.typography.line-height.md}"
           }
         },
         "level-6": {
@@ -4449,7 +4453,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.md}"
+            "$value": "{hetcak.typography.line-height.md}"
           }
         }
       }
@@ -4482,7 +4486,7 @@
             },
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.sm}"
+              "$value": "{hetcak.typography.line-height.sm}"
             }
           },
           "2": {
@@ -4492,7 +4496,7 @@
             },
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.sm}"
+              "$value": "{hetcak.typography.line-height.sm}"
             }
           },
           "3": {
@@ -4502,7 +4506,7 @@
             },
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.sm}"
+              "$value": "{hetcak.typography.line-height.sm}"
             }
           },
           "4": {
@@ -4512,7 +4516,7 @@
             },
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.md}"
+              "$value": "{hetcak.typography.line-height.md}"
             }
           },
           "5": {
@@ -4522,7 +4526,7 @@
             },
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.md}"
+              "$value": "{hetcak.typography.line-height.md}"
             }
           },
           "6": {
@@ -4532,7 +4536,7 @@
             },
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.md}"
+              "$value": "{hetcak.typography.line-height.md}"
             }
           }
         }
@@ -4560,7 +4564,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.sm}"
+          "$value": "{hetcak.typography.line-height.sm}"
         }
       }
     }
@@ -4586,7 +4590,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.sm}"
+          "$value": "{hetcak.typography.line-height.sm}"
         }
       }
     }
@@ -4612,7 +4616,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.sm}"
+          "$value": "{hetcak.typography.line-height.sm}"
         }
       }
     }
@@ -4638,7 +4642,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{hetcak.typography.line-height.md}"
         }
       }
     }
@@ -4664,7 +4668,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{hetcak.typography.line-height.md}"
         }
       }
     }
@@ -4690,7 +4694,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{hetcak.typography.line-height.md}"
         }
       }
     }
@@ -7915,7 +7919,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{hetcak.typography.line-height.sm}"
           },
           "font-family": {
             "$type": "fontFamilies",
